@@ -36,5 +36,11 @@
 			</intent-filter>
 		</activity>
 		<activity android:name="com.tns.ErrorReportActivity"/>
+
+		<provider
+		android:authorities="com.facebook.app.FacebookContentProvider505516837245335"
+		android:name="com.facebook.FacebookContentProvider"
+		android:exported="true" />
+
 	</application>
 </manifest>
